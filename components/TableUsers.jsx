@@ -9,7 +9,7 @@ export function TableUsers({ dataUsers }) {
             <table className={styles.userTable}>
                 <thead className={styles.theadTable}>
                     <tr>
-                        {conf.map(title => <td>{title}</td>)}
+                        {conf.map((title, index) => <td key={index}>{title}</td>)}
                     </tr>
                 </thead>
                 <tbody>

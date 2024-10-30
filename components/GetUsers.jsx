@@ -15,7 +15,7 @@ export function GetUsers({setUsers, setError}) {
         }
 
         get();
-    }, []);
+    }, [setUsers, setError]);
 
     return null;
 }
