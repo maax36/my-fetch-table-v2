@@ -1,0 +1,17 @@
+.userTable {
+    border-collapse: collapse;
+    border: 1px #000 solid;
+}
+
+.theadTable {
+    background-color: bisque;
+}
+
+.userTable tr:nth-child(even) {
+    background-color: #e5f4ff;
+}
+
+.userTable td {
+    border: 1px #000 solid;
+    padding: 10px;
+}
